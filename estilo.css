@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #1E2952;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h2{
+    font-family: cursive;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #B0E0E6;
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
+
+#logo{
+    width: 150px;
+    margin: 0 20px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu {
+    list-style-type: none;
+}
+#menu li {
+    float: right;
+    display: inline-block; /* menu horizontal */  
+    padding: 8px 35px;
+    border: solid black 1px; /*borda solida preta com 5 pixels de espessura */
+    margin: 0 15px;
+    font-size: 0.8rem;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#capa {
+    width: 85vw;
+    margin: auto;
+}
+
+
+#sobremim{
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+#sobre{
+    width:40vw;
+    text-align: justify; 
+}
+
+#sobre p{
+    margin-top: 10px;
+}
+#sobremim img{
+    height: 60vh;
+    border-radius: 50%;
+}
+
+#audiovisual{
+    width:98vw;
+    margin: auto;
+}
+
+#audiovisual h2{
+    text-align: center;
+}
+
+#video-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.video-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+video{
+    width: 90%;
+    margin: 20px 0;
+}
+
+#fotografia{
+    width:98vw;
+    margin: 20px auto;
+    background-color: #F0F8FF;
+}
+
+#fotografia h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+#foto-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    flex-wrap: wrap;
+}
+
+#foto-flex img{
+    width: 20%;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+#contato{
+    width:98vw;
+    margin: 20px auto;
+    padding: 20px;
+    text-align:center;
+}
+
+#contact-container{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    width:50%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.contact-info i{
+    margin-right: 15px;
+}
